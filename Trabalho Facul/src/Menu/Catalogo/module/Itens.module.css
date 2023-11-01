@@ -1,0 +1,80 @@
+.Container{
+    background-color: #c7c5c5;
+    width: 350px;
+    height: 395px;
+    border-radius: 10px;
+}
+
+.ContainerImagem{
+    background-color: #89BA73;
+    width: 350px;
+    height: 200px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ContainerImagem img{
+    max-width: 340px;
+    max-height: 190px;
+    border-radius: 10px;
+}   
+
+.ContainerDesc{
+    display: flex;
+    flex-direction: column;
+    margin-top: 14px;
+    margin-left: 10px;
+    gap:22px;
+}
+
+.ContainerDesc p{
+    font-size: 20px;
+}
+
+.ContainerValor{
+    display: flex;
+}
+
+.ContainerPVL{
+    margin-left: 10px;
+}
+
+.ContainerVl{
+    background-color: white;
+    width: 75%;
+    margin-left: 10px;
+    border-radius: 15px;
+
+}
+
+.ContainerItem{
+    display: flex;
+}
+
+.ContainerItm{
+    background-color: white;
+    width: 76%;
+    margin-left: 10px;
+    border-radius: 15px;
+}
+
+.ContainerPItm{
+    margin-left: 10px;
+}
+
+.ContainerProdutor{
+    display: flex;
+}
+
+.ContainerPrd{
+    background-color: white;
+    width: 63%;
+    margin-left: 10px;
+    border-radius: 15px;
+}
+
+.ContainerPPrd{
+    margin-left: 10px;
+}

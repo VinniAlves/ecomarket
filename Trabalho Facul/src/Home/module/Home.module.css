@@ -1,0 +1,77 @@
+.Container{
+    background-color: rgb(137,186,115);
+    width: 100%;
+    height: 600px;
+}
+
+
+
+.ContainerHeader{
+    background-color: rgb(255 255 255 / 75%);
+    width: 100%;
+    height: 70px;
+    display: flex;
+}
+
+.ContainerLogoHeader{
+height: 50px;
+
+}
+
+.ContainerLogoHeader img{
+    height: 110px;
+    width: 158px;
+    position: relative;
+    top:-17px;
+}
+
+.ContainerRegistrar{
+    position: absolute;
+    right: 0px;
+    margin-right: 200px;
+    top:15px;
+}
+
+.ContainerRegistrar a{
+    display: flex;
+    height: 40px;
+    width: 113px;
+    border-radius: 124px;
+    border: 1px;
+    background-color: rgb(137 186 155);
+    color: white;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+}
+
+.ContainerRegistrar:hover a{
+    background-color: rgb(113, 163, 132);
+
+}
+
+
+.ContainerCadastrar {
+    position: absolute;
+    right: 0px;
+    margin-right: 55px;
+    top:15px;
+    
+}
+
+.ContainerCadastrar:hover a{
+    background-color: rgb(219, 167, 88);
+}
+
+.ContainerCadastrar a{
+    display: flex;
+    height: 40px;
+    width: 113px;
+    border-radius: 124px;
+    border: 1px;
+    background-color: rgb(245 188 100);
+    color: white;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+}

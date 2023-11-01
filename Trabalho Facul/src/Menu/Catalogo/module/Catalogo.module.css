@@ -1,0 +1,44 @@
+.ContainerMaster{
+    background-color: #E3E3E3;
+    width: 100%;
+    height: -webkit-fill-available;
+}
+
+
+
+.ContainerTela{
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 45px;
+}
+
+
+
+.ContainerCadastroPrd{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    top: 83vh;
+}
+
+.ContainerCadastroPrd a{
+    color: white;
+    width: 202px;
+    height: 40px;
+    font-size: 19px;
+    border-radius: 10px;
+    border: none;
+    background: #89BA73;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ButtonComponent:hover{
+    background: #77a562; 
+}
+

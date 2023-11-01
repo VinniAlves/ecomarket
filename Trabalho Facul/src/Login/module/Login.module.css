@@ -1,0 +1,117 @@
+.Container{
+    display: flex;
+
+}
+
+.ContainerLeft{
+    background-color: rgb(245 188 100);
+    width: 45%;
+    height: 100vh;
+}
+
+.ContainerRegistro{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    top:300px;
+}
+
+.ContainerRegistro a{
+    color: white;
+    background-color: #1AEDED;
+    width: 160px;
+    height: 50px;
+    margin-top: 20px;
+    border: none;
+    border-radius: 40px;
+    font-size: 21px;
+    text-decoration: none;
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.ContainerRegistro:hover a{
+    background-color: #25caca;
+}
+
+.ContainerRegistro p{
+    color: white;
+    font-size: 30px;
+    text-align: -webkit-center;
+
+}
+
+.ContainerRight{
+    box-shadow: black 4px -1px 20px 0px;
+    width: 65%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ContainerMenu{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.ContainerMenu h1{
+    position: relative;
+    margin-bottom: 17%;
+    font-size: 48px;
+    color: #89BA73;
+}
+
+
+.ContainerMenu input{
+    width: 450px;
+    height: 50px;
+    padding-left: 40px;
+    background-color: rgb(217 217 217 / 76%);
+    border: 0;
+    border-radius: 4px;
+    font-size: 17px;
+}
+
+.IconUser {
+    position: relative;
+    top: 38px;
+    right: 205px;
+    width: 25px;
+    height: 25px;
+}
+
+.IconEmail{
+    position: relative;
+    top: 38px;
+    right: 205px;
+    width: 25px;
+    height: 25px;
+}
+
+.IconLock{
+    position: relative;
+    top: 38px;
+    right: 205px;
+    width: 25px;
+    height: 25px;
+}
+
+.ButtonContainer{
+    color: white;
+    background-color: #F5BC64;
+    width: 160px;
+    height: 50px;
+    margin-top: 20px;
+    border: none;
+    border-radius: 40px;
+    font-size: 21px;
+}
+
+.ButtonContainer:hover{
+    background-color: #ce9f58;
+
+}

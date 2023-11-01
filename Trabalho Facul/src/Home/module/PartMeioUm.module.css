@@ -1,0 +1,45 @@
+.ContainerPartUm{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 7vh;
+    gap: 10%;
+}
+
+
+.ContainerLogoMeio{
+    background-color: white;
+    width: 500px;
+    height: 250px;
+    
+    
+}
+.ContainerLogoImg{
+    width: 100%;
+    display: flex;
+    position: relative;
+    justify-content: center;
+}
+
+.ContainerLogoMeio img{
+    
+    height: 250px;
+}
+
+.ContainerMessage{
+
+
+}
+
+.ContainerMessage{
+    width: 340px;
+    text-align: -webkit-center;
+}
+
+.ContainerMessage p{
+    font-size: 40px;
+    color: white;
+    line-height: 40px;
+
+
+}
